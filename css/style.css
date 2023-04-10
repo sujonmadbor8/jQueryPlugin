@@ -1,0 +1,66 @@
+/* common css  */
+body {
+}
+/* common css  */
+
+#typing_js {
+  height: 300px;
+}
+#typed {
+  color: rgb(239, 255, 10);
+}
+
+/* pie chart start  */
+.pie_chart {
+  background-color: #0078ff;
+  height: 300px;
+}
+.chart_item .chart {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.chart_item .chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.chart_item h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+/* pie chart end  */
+
+/* owlCarousel start  */
+.owl-carousel .item img {
+  border-radius: 10px;
+}
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  width: 40px;
+  height: 30px;
+  background-color: lightslategrey;
+  color: white;
+  position: absolute;
+}
+.owl-carousel .owl-nav button.owl-prev {
+  left: 84%;
+}
+.owl-carousel .owl-nav button.owl-next {
+  right: 5%;
+}
+.owl-carousel button.owl-dot {
+}
+.owl-theme .owl-dots .owl-dot span {
+  height: 15px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: coral;
+}
+
+/* owlCarousel end  */
